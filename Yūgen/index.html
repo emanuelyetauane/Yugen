@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Yūgen | Cozinha Asiática</title>
+     <link rel="stylesheet" href="/src/js/script.js">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="/src/img/logo.png" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- MENU -->
+
+    <header class="header">
+
+        <a href="#" class="logo">
+            <div class="logo-icon"> <img src="src/img/logo.png" alt=""></div>
+
+            <div>
+                <h1>YŪGEN</h1>
+                <span>COZINHA ASIÁTICA</span>
+            </div>
+        </a>
+
+        <nav class="navbar">
+
+            <a href="#inicio" class="active">INÍCIO</a>
+            <a href="#cardapio">CARDÁPIO</a>
+            <a href="#sobre">SOBRE NÓS</a>
+            <a href="#contato">CONTATO</a>
+
+        </nav>
+
+        <a href="#reservar" class="btn-reserva">
+            RESERVAR MESA
+        </a>
+
+        <button class="menu-mobile" id="menuMobile">
+            ☰
+        </button>
+
+    </header>
+
+
+    <!-- HERO -->
+
+    <main>
+
+        <section class="hero" id="inicio">
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+
+                <p class="subtitle">
+                    SABORES DA
+                </p>
+
+                <h2>
+                    ÁSIA
+                </h2>
+
+                <div class="linha"></div>
+
+                <p class="hero-description">
+                    Uma experiência única que combina tradição,
+                    sabor e paixão pela culinária asiática.
+                </p>
+
+                <a href="#cardapio" class="btn-principal">
+                    VER CARDÁPIO
+                    <span>›</span>
+                </a>
+
+            </div>
+
+        <!-- SLIDES -->
+
+      
+            <div class="slider-buttons">
+
+                <button class="slider active"></button>
+                <button class="slider"></button>
+                <button class="slider"></button>
+
+            </div>
+
+        </section>
+
+
+        <!-- CATEGORIAS -->
+
+        <section class="categorias">
+
+            <div class="categoria">
+
+                <div class="categoria-icon">
+                    🍣
+                </div>
+
+                <div>
+                    <h3>SUSHI</h3>
+                    <p>Fresco e tradicional em cada peça.</p>
+                </div>
+
+            </div>
+
+
+            <div class="categoria">
+
+                <div class="categoria-icon">
+                    🍜
+                </div>
+
+                <div>
+                    <h3>RAMEN</h3>
+                    <p>Caldo encorpado e ingredientes selecionados.</p>
+                </div>
+
+            </div>
+
+
+            <div class="categoria">
+
+                <div class="categoria-icon">
+                    🥢
+                </div>
+
+                <div>
+                    <h3>YAKISOBA</h3>
+                    <p>Clássico, saboroso e feito na hora.</p>
+                </div>
+
+            </div>
+
+
+            <div class="categoria">
+
+                <div class="categoria-icon">
+                    🍡
+                </div>
+
+                <div>
+                    <h3>SOBREMESAS</h3>
+                    <p>Doces japoneses para adoçar seu dia.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CARDÁPIO -->
+
+        <section class="cardapio" id="cardapio">
+
+            <div class="titulo-secao">
+
+                <span>✧</span>
+
+                <h2>PRATOS POPULARES</h2>
+
+                <span>✧</span>
+
+            </div>
+
+
+            <div class="pratos">
+
+                <!-- SUSHI -->
+
+                <article class="prato">
+
+                    <div class="imagem-prato">
+                        <img src="src/img/Mastering the Art of Making Authentic Japanese Sushi at Home 1.png" alt="Combo Sushi">
+                    </div>
+
+                    <div class="prato-info">
+
+                        <h3>COMBO SUSHI</h3>
+
+                        <p>
+                            12 peças variadas com salmão,
+                            avocado e cream cheese.
+                        </p>
+
+                        <strong>R$ 39,99</strong>
+
+                    </div>
+
+                </article>
+
+
+                <!-- RAMEN -->
+
+                <article class="prato">
+
+                    <div class="imagem-prato">
+                        <img src="src/img/134263632640600646 1.png" alt="Ramen Tonkotsu">
+                    </div>
+
+                    <div class="prato-info">
+
+                        <h3>RAMEN TONKOTSU</h3>
+
+                        <p>
+                            Lámen com caldo de porco,
+                            chashu, ovo, cebolinha e alga.
+                        </p>
+
+                        <strong>R$ 54,90</strong>
+
+                    </div>
+
+                </article>
+
+
+                <!-- YAKISOBA -->
+
+                <article class="prato">
+
+                    <div class="imagem-prato">
+                        <img src="src/img/Fried Noodle photo 1.png" alt="Yakisoba Tradicional">
+                    </div>
+
+                    <div class="prato-info">
+
+                        <h3>YAKISOBA TRADICIONAL</h3>
+
+                        <p>
+                            Macarrão salteado com legumes
+                            e tiras de frango ou carne.
+                        </p>
+
+                        <strong>R$ 49,90</strong>
+
+                    </div>
+
+                </article>
+
+
+                <!-- MOCHI -->
+
+                <article class="prato">
+
+                    <div class="imagem-prato">
+                        <img src="src/img/raiden shogun aesthetic 1.png" alt="Mochi">
+                    </div>
+
+                    <div class="prato-info">
+
+                        <h3>DANGO</h3>
+
+                        <p>
+                            Doce feito de massa de arroz glutinoso com varios abores e caldas.
+                        </p>
+
+                        <strong>R$ 24,90</strong>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- SOBRE -->
+
+        <section class="sobre" id="sobre">
+
+            <div class="sobre-texto">
+
+                <div class="titulo-sobre">
+
+                    <span>鳥</span>
+
+                    <h2>SOBRE NÓS</h2>
+
+                </div>
+
+                <div class="linha"></div>
+
+                <p>
+                    No Yūgen, acreditamos que a culinária asiática
+                    vai além do sabor: é sobre cultura, tradição e
+                    momentos inesquecíveis.
+                </p>
+
+                <p>
+                    Cada prato é preparado com ingredientes
+                    selecionados e muito cuidado para levar até
+                    você uma experiência verdadeira da Ásia.
+                </p>
+
+                <a href="#" class="btn-secundario">
+                    CONHEÇA NOSSA HISTÓRIA
+                </a>
+
+            </div>
+
+
+            <div class="sobre-imagem">
+
+                <img src="src/img/download (1).jpeg"
+                     alt="Cozinha do restaurante Yugen">
+
+            </div>
+
+        </section>
+
+
+        <!-- PRATO DO DIA -->
+
+        <section class="especial">
+
+            <div class="especial-imagem">
+
+                <img src="src/img/download (2) 1.png"
+                     alt="Indian Thali">
+
+            </div>
+
+            <div class="especial-info">
+
+                <span class="tag">
+                    ESPECIAL DE HOJE
+                </span>
+
+                <h2>PRATO DO DIA</h2>
+
+                <h3>Indian Thali</h3>
+
+                <p>
+                    Arroz branco, alho frito, cebola roxa, molhos e diversas carnes, tudo para ser comido com uma massa de panqueca inves de garfos e colheres.
+                </p>
+
+                <strong>R$ 59,90</strong>
+
+            </div>
+
+        </section>
+
+
+        <!-- RESERVA -->
+
+        <section class="reserva" id="reservar">
+
+            <div>
+
+                <span>YŪGEN</span>
+
+                <h2>
+                    UMA EXPERIÊNCIA
+                    INESQUECÍVEL
+                </h2>
+
+                <p>
+                    Reserve sua mesa e venha descobrir
+                    os sabores da verdadeira culinária asiática.
+                </p>
+
+                <button id="reservarBtn">
+                    RESERVAR MESA
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+
+    <footer id="contato">
+
+        <div class="footer-container">
+
+            <div class="footer-logo">
+
+                <h2>YŪGEN</h2>
+
+                <span>COZINHA ASIÁTICA</span>
+
+                <p>
+                    Sabores autênticos da Ásia
+                    pertinho de você.
+                </p>
+
+                <div class="social">
+
+                    <a href="#">◎</a>
+                    <a href="#">f</a>
+                    <a href="#">◉</a>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-coluna">
+
+                <h3>LINKS RÁPIDOS</h3>
+
+                <a href="#inicio">Início</a>
+                <a href="#cardapio">Cardápio</a>
+                <a href="#sobre">Sobre nós</a>
+                <a href="#contato">Contato</a>
+
+            </div>
+
+
+            <div class="footer-coluna">
+
+                <h3>HORÁRIO</h3>
+
+                <p>
+                    Segunda a Quinta:<br>
+                    11h - 15h / 18h - 23h
+                </p>
+
+                <p>
+                    Sexta e Sábado:<br>
+                    11h - 16h / 18h - 00h
+                </p>
+
+                <p>
+                    Domingo:<br>
+                    11h - 15h / 18h - 22h
+                </p>
+
+            </div>
+
+
+            <div class="footer-coluna">
+
+                <h3>CONTATO</h3>
+
+                <p>📍 Rua das Cerejeiras, 803</p>
+                <p>📞 (35) 9983-9463</p>
+                <p>✉ contato@yugen.com.br</p>
+
+            </div>
+
+        </div>
+
+
+        <div class="copyright">
+
+            © 2026 Yūgen Cozinha Asiática.
+            Todos os direitos reservados.
+
+        </div>
+
+    </footer>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

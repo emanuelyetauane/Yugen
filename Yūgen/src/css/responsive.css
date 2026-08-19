@@ -1,0 +1,10 @@
+@media (max-width: 624px) {
+  .hero {
+    background-position: center;
+    background-size: small;
+  }
+
+  .navbar {
+    align-items: center;
+  }
+}
